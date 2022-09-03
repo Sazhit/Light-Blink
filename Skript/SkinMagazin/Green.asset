@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92ac7e78ab87af4c93712932e73ae8e, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  skinID: 4
+  skinSprite: {fileID: 8261294991074556545, guid: 20a24c2edeff3724c8a35bfc3c3affe2, type: 3}
+  money: 0
+  skinPrice: 350
+  diamond: 0
+  particleSystem: {fileID: 3482938832598884843, guid: bf54fc7c20848b34b814aa0a6ed0353d, type: 3}
