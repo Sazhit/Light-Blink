@@ -24,9 +24,9 @@ public class Player : MonoBehaviour
     {
         _rb.velocity = new Vector2( speedX * Time.deltaTime, speedY * Time.deltaTime);
         float posX = transform.position.x;
-        float posY = transform.position.z;
+        float posY = transform.position.y;
         posX = Mathf.Clamp(posX, -xMargin, xMargin);
-        posY = Mathf.Clamp(posX, -yMargin, yYMargin);
+        posY = Mathf.Clamp(posY, -yMargin, yYMargin);
         transform.position = new Vector3(posX, posY, transform.position.z);
     }
 
