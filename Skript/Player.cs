@@ -22,7 +22,6 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //_rb.velocity = new Vector2(speed, _rb.velocity.y);
         _rb.velocity = new Vector2( speedX * Time.deltaTime, speedY * Time.deltaTime);
         float posX = transform.position.x;
         float posY = transform.position.z;
